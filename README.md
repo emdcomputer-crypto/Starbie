@@ -1,2 +1,2 @@
 <img width="3840" height="2160" alt="665674551-57f0e280-d2bf-4604-b259-fa0ea4802df7" src="https://github.com/user-attachments/assets/27de648b-78fc-4e90-82ae-fd1baa80a4bc" />
-I was already planning to make something similar to a starbie so that's why i chose this because it's guided and is a good starting project
+I was already planning to make something similar to a starbie so that's why i chose this because it's guided and is a good starting project, i followed all the instructions here : https://github.com/SharKingStudios/Starbie/tree/main
