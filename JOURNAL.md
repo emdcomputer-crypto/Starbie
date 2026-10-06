@@ -10,13 +10,13 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 11.97h | 3 |
+| Week 1 | Tier 1 | 13.97h | 3 |
 
 ## Contents
 
 1. [2026-10-05 — Work session](#2026-10-05-work-session)
 2. [2026-10-05 — So for this project I just started off by following the guide step by step, going through the instructions one by one to get everything set up. It was going pretty smooth at first, but honestly the tr](#2026-10-05-so-for-this-project-i-just-started-off-by-followi)
-3. [2026-10-06 — I searched for a bunch of tips online to make the routing look better and fix up the traces. After that I ran the DRC test thingie to check for errors, found a few weird problems like isolated pads, a](#2026-10-06-i-searched-for-a-bunch-of-tips-online-to-make-the)
+3. [2026-10-06 — ![12](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/9a41b37562c849907f3a83d1aa5a3d5bc58c8a494217f74988c9070461d2e781.png)](#2026-10-06-12httpshalflifehackclub-assetscomhackclub-half-li)
 
 ## Design
 
@@ -52,9 +52,13 @@ Anyway here are the 8 pictures showing the final product
 
 ![8](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/b651a99a15f3e814d816ee993db3baed5ce43be70e51acd11e6cf487d93c7ee6.png)
 
-### 2026-10-06 — I searched for a bunch of tips online to make the routing look better and fix up the traces. After that I ran the DRC test thingie to check for errors, found a few weird problems like isolated pads, a
+### 2026-10-06 — ![12](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/9a41b37562c849907f3a83d1aa5a3d5bc58c8a494217f74988c9070461d2e781.png)
 
-**3h**
+**5h**
+
+![12](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/9a41b37562c849907f3a83d1aa5a3d5bc58c8a494217f74988c9070461d2e781.png)
+
+![14](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/d37b612d772a61d684a80f9cefc5e53713bad4a8ea2dd42e52ddbf886651368c.png)
 
 I searched for a bunch of tips online to make the routing look better and fix up the traces. After that I ran the DRC test thingie to check for errors, found a few weird problems like isolated pads, and got them all fixed. Finally I added a full ground pour zone , which connected all the GND pins automatically and cleaned up the whole layout here are pictures of the final work of the pcb
 
