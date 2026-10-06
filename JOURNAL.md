@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 23.87h | 5 |
+| Week 1 | Tier 1 | 23.97h | 5 |
 
 ## Contents
 
@@ -88,7 +88,7 @@ Spent hours losing my mind wondering why JLCPCB kept rendering my board as a tin
 
 ### 2026-10-06 — Spent about 4 hours in KiCad's 3D Viewer trying to figure out if my parts would actually fit together in real life. Since this is my first time designing a PCB, I spent a lot of time following YouTube
 
-**4.9h**
+**5h**
 
 Spent about 4 hours in KiCad's 3D Viewer trying to figure out if my parts would actually fit together in real life. Since this is my first time designing a PCB, I spent a lot of time following YouTube tutorials to learn how to open the 3D models and use the 3D measurement tool. I measured the height of the pin headers to make sure the OLED display wouldn't smash into the other components, and checked that the DHT11 sensor and MPU6050 had enough breathing room so nothing collides once soldered.
 
