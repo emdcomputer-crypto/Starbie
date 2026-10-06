@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 23.97h | 5 |
+| Week 1 | Tier 1 | 24.37h | 5 |
 
 ## Contents
 
@@ -18,7 +18,7 @@
 2. [2026-10-05 — So for this project I just started off by following the guide step by step, going through the instructions one by one to get everything set up. It was going pretty smooth at first, but honestly the tr](#2026-10-05-so-for-this-project-i-just-started-off-by-followi)
 3. [2026-10-06 — ![12](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/9a41b37562c849907f3a83d1aa5a3d5bc58c8a494217f74988c9070461d2e781.png)](#2026-10-06-12httpshalflifehackclub-assetscomhackclub-half-li)
 4. [2026-10-06 — Spent hours losing my mind wondering why JLCPCB kept rendering my board as a tiny default rectangle and ignoring all my fixes... only to realize I literally forgot to hit the 'Plot' button in KiCad af](#2026-10-06-spent-hours-losing-my-mind-wondering-why-jlcpcb-k)
-5. [2026-10-06 — Spent about 4 hours in KiCad's 3D Viewer trying to figure out if my parts would actually fit together in real life. Since this is my first time designing a PCB, I spent a lot of time following YouTube](#2026-10-06-spent-about-4-hours-in-kicads-3d-viewer-trying-to)
+5. [2026-10-06 — ![106](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/7abf3a36411e5790d8dd54c296b39b2b0e005085283db22196aa7e41f9de7d88.png)](#2026-10-06-106httpshalflifehackclub-assetscomhackclub-half-l)
 
 ## Design
 
@@ -86,9 +86,11 @@ Spent hours losing my mind wondering why JLCPCB kept rendering my board as a tin
 
 ![19](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/3e071b7d222d9df051e557e474ce41ad6284561aec35236a355642badd7769fb.png)
 
-### 2026-10-06 — Spent about 4 hours in KiCad's 3D Viewer trying to figure out if my parts would actually fit together in real life. Since this is my first time designing a PCB, I spent a lot of time following YouTube
+### 2026-10-06 — ![106](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/7abf3a36411e5790d8dd54c296b39b2b0e005085283db22196aa7e41f9de7d88.png)
 
-**5h**
+**5.4h**
+
+![106](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/7abf3a36411e5790d8dd54c296b39b2b0e005085283db22196aa7e41f9de7d88.png)
 
 Spent about 4 hours in KiCad's 3D Viewer trying to figure out if my parts would actually fit together in real life. Since this is my first time designing a PCB, I spent a lot of time following YouTube tutorials to learn how to open the 3D models and use the 3D measurement tool. I measured the height of the pin headers to make sure the OLED display wouldn't smash into the other components, and checked that the DHT11 sensor and MPU6050 had enough breathing room so nothing collides once soldered.
 
