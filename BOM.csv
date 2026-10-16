@@ -1,11 +1,11 @@
-Part,What it's for,Qty,Unit,Total,Vendor
-"=HYPERLINK(""https://www.amazon.it/dp/B0GQS8K54W"",""XIAO ESP32 C3"")","Wifi and the main loop basically the brain","1","$20.19","$20.19","=HYPERLINK(""https://www.amazon.it/dp/B0GQS8K54W"",""Amazon"")"
-"=HYPERLINK(""https://www.amazon.it/dp/B0GKDNWT82"",""0.96 OLED"")","The display","1","$13.46","$13.46","=HYPERLINK(""https://www.amazon.it/dp/B0GKDNWT82"",""Amazon"")"
-"=HYPERLINK(""https://www.amazon.it/dp/B07BVXN2GP"",""MPU6050"")","Gyro sensor","1","$7.85","$7.85","=HYPERLINK(""https://www.amazon.it/dp/B07BVXN2GP"",""Amazon"")"
-"=HYPERLINK(""https://www.amazon.it/dp/B0CK195FRJ"",""DHT11"")","Temperature sensor","1","$10.09","$10.09","=HYPERLINK(""https://www.amazon.it/dp/B0CK195FRJ"",""Amazon"")"
-"=HYPERLINK(""https://www.amazon.it/dp/B0H2HPJPKW"",""mx switch"")","the switches","1","$8.97","$8.97","=HYPERLINK(""https://www.amazon.it/dp/B0H2HPJPKW"",""Amazon"")"
-"=HYPERLINK(""https://www.amazon.it/dp/B0F1YQTQMD"",""Keycaps"")","the keycaps for the switches","1","$16.36","$16.36","=HYPERLINK(""https://www.amazon.it/dp/B0F1YQTQMD"",""Amazon"")"
-"=HYPERLINK(""https://jlcpcb.com/"",""Pcb"")","The pcb printing service","1","$9.16","$9.16","=HYPERLINK(""https://jlcpcb.com/"",""JLCPCB"")"
-"Parts subtotal","—","—","—","$86.08","—"
-"Tax & shipping","—","—","—","$11.75","—"
-"Total","—","—","—","$97.83","—"
+Part,What it's for,Qty,Unit,Total,Vendor,Link
+XIAO ESP32 C3,Wifi and the main loop basically the brain,1,$20.19,$20.19,Amazon,https://www.amazon.it/dp/B0GQS8K54W
+0.96 OLED,The display,1,$13.46,$13.46,Amazon,https://www.amazon.it/dp/B0GKDNWT82
+MPU6050,Gyro sensor,1,$7.85,$7.85,Amazon,https://www.amazon.it/dp/B07BVXN2GP
+DHT11,Temperature sensor,1,$10.09,$10.09,Amazon,https://www.amazon.it/dp/B0CK195FRJ
+mx switch,the switches,1,$8.97,$8.97,Amazon,https://www.amazon.it/dp/B0H2HPJPKW
+Keycaps,the keycaps for the switches,1,$16.36,$16.36,Amazon,https://www.amazon.it/dp/B0F1YQTQMD
+Pcb,The pcb printing service,1,$9.16,$9.16,JLCPCB,https://jlcpcb.com/
+Parts subtotal,—,—,—,$86.08,—,—
+Tax & shipping,—,—,—,$11.75,—,—
+Total,—,—,—,$97.83,—,—
