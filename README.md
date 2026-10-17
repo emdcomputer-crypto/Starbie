@@ -1,14 +1,12 @@
 # Starbie PCB Project
 
-Starbie is a small virtual pet PCB made with a XIAO ESP32-C3. It uses a 0.96-inch OLED screen to show an animated pet, menus, and different stats. The project also has two buttons, an MPU6050 motion sensor, and a DHT11 temperature and humidity sensor.
-
-The MPU6050 is used to control the menu by moving the board around, almost like a small air mouse. The buttons are used to open the menu, select options, and switch between the pet screen and the stats screen. The pet can walk, jump, sleep, and react with animations on the OLED.
+Starbie is a small virtual pet PCB made with a XIAO ESP32-C3. It uses a 0.96-inch OLED screen to show an animated pet menus and different stats. The project also has two buttons an MPU6050 motion sensor, and a DHT11 temperature and humidity sensor.
 
 This is my Week 1 PCB project for Hack Club Half Life. I designed the schematic and PCB in KiCad, routed the traces, added a ground pour, checked the board with the Design Rules Checker, and prepared the fabrication files.
 
 ## What I learned and what I fixed
 
-I started by following the guided Starbie project from [SharKingStudios](https://github.com/SharKingStudios/Starbie ), because I was already planning to make something similar and it was a good starting point.
+I started by following the guided Starbie project from [SharKingStudios](https://github.com/SharKingStudios/Starbie ), because I was already planning to make something similar and this was a good starting point as it was also guided.
 
 After setting up the schematic with the XIAO ESP32-C3, OLED display, MPU6050, DHT11 sensor, and buttons, I started routing everything in KiCad. Routing by hand became messy quickly, so I looked up some tips to make the traces cleaner.
 
