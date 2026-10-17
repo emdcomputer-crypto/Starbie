@@ -49,7 +49,6 @@ Amazon is also more convenient for this project because the shipping is faster a
 - [`BOM.csv`](BOM.csv) — CSV version of the bill of materials
 - [`JOURNAL.md`](JOURNAL.md) — project development journal
 
-The folder is called `Firware` because that is how it was originally created, although normally it would be spelled `Firmware`.
 
 ## Credits
 
