@@ -1,3 +1,13 @@
+Starbie PCB Project 
+I was already planning to make something similar to a starbie so that's why i chose this because it's guided and is a good starting project, i followed all the instructions here : https://github.com/SharKingStudios/Starbie/tree/main
+How It Went & Problems I Fixed: 
+After getting the schematic setup with the XIAO-ESP32-C3, OLED display, MPU6050, DHT11 sensor, and the two buttons, I hopped into KiCad's PCB Editor to start routing everything together.
+Routing by hand got messy super fast, so I looked up some quick routing tips online to keep things clean and smooth. Instead of manually dragging every single ground line around the board,
+I added a full-board GND copper pour across the top layer to handle all those ground connections automatically.
+When running the Design Rules Check (DRC), a few specific errors popped up:   Trapped / Isolated Ground Pads: A few ground pads (like Pad 1 on the OLED, Pad 4 on the DHT11, and Pad 2 on J2) i searched online and a trace was blocking the ground pour from reaching them.
+I fixed these by manually routing short bridge tracks from those pads out into the ground zone.
+Once those were out of the way DRC cleared with 0 unconnected pads
+
 <img width="3840" height="2160" alt="665674551-57f0e280-d2bf-4604-b259-fa0ea4802df7" src="https://github.com/user-attachments/assets/27de648b-78fc-4e90-82ae-fd1baa80a4bc" />
 <img width="1920" height="1080" alt="8" src="https://github.com/user-attachments/assets/c37e10d5-585f-4cc0-acd0-51f298823da0" />
 <img width="1920" height="1080" alt="7" src="https://github.com/user-attachments/assets/87957fc7-e223-4ff7-b5dd-a4a5c4921c19" />
@@ -15,12 +25,3 @@
 <img width="1914" height="1029" alt="3" src="https://github.com/user-attachments/assets/4de5ff7e-9d3d-4ad7-b697-74dd0116fb33" />
 <img width="1100" height="950" alt="4" src="https://github.com/user-attachments/assets/77a392d3-4c74-4eb0-80cc-7061bd4b518a" />
 
-Starbie PCB Project 
-I was already planning to make something similar to a starbie so that's why i chose this because it's guided and is a good starting project, i followed all the instructions here : https://github.com/SharKingStudios/Starbie/tree/main
-How It Went & Problems I Fixed: 
-After getting the schematic setup with the XIAO-ESP32-C3, OLED display, MPU6050, DHT11 sensor, and the two buttons, I hopped into KiCad's PCB Editor to start routing everything together.
-Routing by hand got messy super fast, so I looked up some quick routing tips online to keep things clean and smooth. Instead of manually dragging every single ground line around the board,
-I added a full-board GND copper pour across the top layer to handle all those ground connections automatically.
-When running the Design Rules Check (DRC), a few specific errors popped up:   Trapped / Isolated Ground Pads: A few ground pads (like Pad 1 on the OLED, Pad 4 on the DHT11, and Pad 2 on J2) i searched online and a trace was blocking the ground pour from reaching them.
-I fixed these by manually routing short bridge tracks from those pads out into the ground zone.
-Once those were out of the way DRC cleared with 0 unconnected pads
