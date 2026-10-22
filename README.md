@@ -20,12 +20,12 @@ These are the prices I found for the parts in Italy:
 
 I know that some of these parts can be found much cheaper through websites such as Seeed or LCSC. However, I live in Italy, and shipping can make a big difference. Even if the components are cheap, international shipping, VAT, and other import costs can make the final price almost the same as buying from Amazon.
 
-Amazon is also more convenient for this project because the shipping is faster and returns are easier. There was a time when websites such as AliExpress were much cheaper for these types of components, but taxes and import costs for products from China have increased in the EU. Because of this, the Amazon prices were the most practical option for me, even though the individual parts cost more. But an upside of aliexpress is that there are vendors that offer single components instead of complete kits wich can reduce the price by a lot so after a while of looking around and trying to get the cheapest options i was able to knock down the total:
+Amazon is also more convenient for this project because the shipping is faster and returns are easier. There was a time when websites such as AliExpress were much cheaper for these types of components, but taxes and import costs for products from China have increased in the EU. Because of this, the Amazon prices were the most practical option for me, even though the individual parts cost more. 
 
 
 | Part | What it is used for | Quantity | Price | Vendor |
 |---|---|---:|---:|---|
-| [XIAO ESP32-C3]([https://www.amazon.it/dp/B0GQS8K54W ](https://it.aliexpress.com/item/1005008791937363.html?spm=a2g0o.cart.0.0.6ab418fcxEWY8e&mp=1&pdp_npi=6%40dis%21EUR%21EUR+9.99%21EUR+9.99%21%21EUR+9.99%21%21%21%400b88abba17926478517746365e0c42%2112000052930246748%21ct%21IT%218194849047%21%211%210%21&gatewayAdapt=glo2ita)) | Main microcontroller and Wi-Fi | 1 | $20.19 | Amazon Italy |
+| [XIAO ESP32-C3]([https://www.amazon.it/dp/B0GQS8K54W ]([https://it.aliexpress.com/item/1005008791937363.html?spm=a2g0o.cart.0.0.6ab418fcxEWY8e&mp=1&pdp_npi=6%40dis%21EUR%21EUR+9.99%21EUR+9.99%21%21EUR+9.99%21%21%21%400b88abba17926478517746365e0c42%2112000052930246748%21ct%21IT%218194849047%21%211%210%21&gatewayAdapt=glo2ita](https://www.amazon.it/ESP32-C3-XIAO-Bluetooth-Dual-Mode-Interfaccia/dp/B0GQS8K54W/ref=sr_1_2_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3QKX5NNHQE2ZC&dib=eyJ2IjoiMSJ9._SAf8VV9Xs50mPb3GynPf5q)_)) | Main microcontroller and Wi-Fi | 1 | $20.19 | Amazon Italy |
 | [0.96-inch OLED](https://www.amazon.it/dp/B0GKDNWT82 ) | Displays the pet and sensor readings | 1 | $13.46 | Amazon Italy |
 | [MPU6050](https://www.amazon.it/dp/B07BVXN2GP ) | Motion and gyroscope sensor | 1 | $7.85 | Amazon Italy |
 | [DHT11](https://www.amazon.it/dp/B0CK195FRJ ) | Temperature and humidity sensor | 1 | $10.09 | Amazon Italy |
