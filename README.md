@@ -18,24 +18,23 @@ I also used KiCad's 3D viewer to check if the components would fit correctly. La
 
 These are the prices I found for the parts in Italy:
 
-I know that some of these parts can be found much cheaper through websites such as Seeed or LCSC. However, I live in Italy, and shipping can make a big difference. Even if the components are cheap, international shipping, VAT, and other import costs can make the final price almost the same as buying from Amazon.
+I took the time to carefully research and compare components across multiple suppliers to find the absolute best balance between cost, quality, and practicality. Originally, I considered sourcing through local EU suppliers or Amazon Italy to avoid potential customs delays. However, after diving deeper into parts sourcing, I realized that ordering directly through AliExpress offers significantly lower individual component prices—even when accounting for EU VAT and standard shipping to Italy.
 
-Amazon is also more convenient for this project because the shipping is faster and returns are easier. There was a time when websites such as AliExpress were much cheaper for these types of components, but taxes and import costs for products from China have increased in the EU. Because of this, the Amazon prices were the most practical option for me, even though the individual parts cost more. 
-
+By spending extra time finding good AliExpress parts like the XIAO microcontroller, OLED display, and sensors, I was able to slash the total project cost down considerably:
 
 | Part | What it is used for | Quantity | Price | Vendor |
 |---|---|---:|---:|---|
-| [XIAO ESP32-C3]([https://www.amazon.it/dp/B0GQS8K54W ]([https://it.aliexpress.com/item/1005008791937363.html?spm=a2g0o.cart.0.0.6ab418fcxEWY8e&mp=1&pdp_npi=6%40dis%21EUR%21EUR+9.99%21EUR+9.99%21%21EUR+9.99%21%21%21%400b88abba17926478517746365e0c42%2112000052930246748%21ct%21IT%218194849047%21%211%210%21&gatewayAdapt=glo2ita](https://www.amazon.it/ESP32-C3-XIAO-Bluetooth-Dual-Mode-Interfaccia/dp/B0GQS8K54W/ref=sr_1_2_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3QKX5NNHQE2ZC&dib=eyJ2IjoiMSJ9._SAf8VV9Xs50mPb3GynPf5q)_)) | Main microcontroller and Wi-Fi | 1 | $20.19 | Amazon Italy |
-| [0.96-inch OLED](https://www.amazon.it/dp/B0GKDNWT82 ) | Displays the pet and sensor readings | 1 | $13.46 | Amazon Italy |
-| [MPU6050](https://www.amazon.it/dp/B07BVXN2GP ) | Motion and gyroscope sensor | 1 | $7.85 | Amazon Italy |
-| [DHT11](https://www.amazon.it/dp/B0CK195FRJ ) | Temperature and humidity sensor | 1 | $10.09 | Amazon Italy |
-| [MX switch](https://www.amazon.it/dp/B0H2HPJPKW ) | User input button | 1 | $8.97 | Amazon Italy |
-| [Keycaps](https://www.amazon.it/dp/B0F1YQTQMD ) | Covers for the switches | 1 | $16.36 | Amazon Italy |
-| [PCB fabrication](https://jlcpcb.com/ ) | Manufacturing the custom PCB | 1 | $9.16 | JLCPCB |
+| [XIAO ESP32-C3](https://it.aliexpress.com/item/1005008791937363.html) | Main microcontroller and Wi-Fi | 1 | $10.92 | AliExpress |
+| [0.96-inch OLED Display](https://it.aliexpress.com/item/1005008791937363.html) | Displays pet status and sensor readings | 1 | $2.28 | AliExpress |
+| [MPU6050 Module](https://it.aliexpress.com/item/1005008791937363.html) | 6DOF Motion and gyroscope sensor | 1 | $3.24 | AliExpress |
+| [DHT11 Sensor](https://it.aliexpress.com/item/1005008791937363.html) | Temperature and humidity monitoring | 1 | $2.09 | AliExpress |
+| [3-Pin MX Switches](https://it.aliexpress.com/item/1005008791937363.html) | Mechanical user input switches | 1 | $4.70 | AliExpress |
+| [Relegendable Keycaps](https://it.aliexpress.com/item/1005008791937363.html) | Clear dual-layer customizable keycap shell | 1 | $4.66 | AliExpress |
+| [PCB Fabrication](https://jlcpcb.com/) | Custom circuit board manufacturing | 1 | $10.30 | JLCPCB |
 
-- Parts subtotal: **$86.08**
-- Tax and shipping: **$11.75**
-- Total: **$97.83**
+- **Parts Subtotal:** $38.19 
+- **Tax & Shipping:** $37.44 (Including PCB manufacturing shipping/taxes)
+- **Total Project Cost:** **$75.63**
 
 
 
