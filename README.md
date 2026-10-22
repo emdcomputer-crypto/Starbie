@@ -18,9 +18,9 @@ I also used KiCad's 3D viewer to check if the components would fit correctly. La
 
 These are the prices I found for the parts in Italy:
 
-I took the time to carefully research and compare components across multiple suppliers to find the absolute best balance between cost, quality, and practicality. Originally, I considered sourcing through local EU suppliers or Amazon Italy to avoid potential customs delays. However, after diving deeper into parts sourcing, I realized that ordering directly through AliExpress offers significantly lower individual component prices—even when accounting for EU VAT and standard shipping to Italy.
+I took the time to carefully research and compare components. Originally, I considered sourcing through Amazon Italy to avoid potential customs delays. However I realized that ordering directly through AliExpress offers significantly lower individual component prices even when accounting for EU VAT and standard shipping to Italy.
 
-By spending extra time finding good AliExpress parts like the XIAO microcontroller, OLED display, and sensors, I was able to slash the total project cost down considerably:
+By spending extra time finding good AliExpress parts like the XIAO microcontroller, OLED display, and sensors, I was able to slash the total project cost down by a little:
 
 | Part | What it is used for | Quantity | Price | Vendor |
 |---|---|---:|---:|---|
