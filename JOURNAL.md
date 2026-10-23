@@ -6,7 +6,7 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmuv6q9px0e4k01sm8qssr7nn). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> trying to make my own starbie
+> An interactive, ESP32-C3 powered desk gadget with a 0.96-inch OLED screen that displays a virtual pet with also real time envirement data like temperature. Built using custom mechanical key switches for interacting, an MPU6050 gyroscope for motion sensing, and a DHT11 sensor for temperature and humidity tracking all in a custom pcb
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
@@ -27,6 +27,8 @@
 
 **0.97h**
 
+Work session
+
 [Timelapse](https://lookout.hackclub.com/api/media/d6d4ca4f-5397-400d-a169-597eae360f52/video.mp4)
 
 ### 2026-10-05 – So for this project I just started off by following the guide step by step, going through the instructions one by one to get everything set up. It was going pretty smooth at first, but honestly the tr
@@ -39,37 +41,37 @@ Also figuring out all the final wiring connections near the end was kinda confus
 
 Anyway here are the 8 pictures showing the final product
 
-![1](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/e923492b7e66a91e4a8ce9dbf8fdd41e2b7b86ca1258853aafa0deca07fa0583.png)
+![1](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/e923492b7e66a91e4a8ce9dbf8fdd41e2b7b86ca1258853aafa0deca07fa0583.png)
 
-![2](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/845afe9746fea34cc0c97b09c2c0750e4f3c444cc3b810c62aecc8ef8963cdd4.png)
+![2](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/845afe9746fea34cc0c97b09c2c0750e4f3c444cc3b810c62aecc8ef8963cdd4.png)
 
-![3](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/2adcc43df63842a7bad42e0d8324664a93f36e425c8d32e78699da5a6ba51995.png)
+![3](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/2adcc43df63842a7bad42e0d8324664a93f36e425c8d32e78699da5a6ba51995.png)
 
-![4](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/4b8f0e0170d457e8f269085bb3a27d1025f2ac0300a0f2c45469bd38b4008727.png)
+![4](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/4b8f0e0170d457e8f269085bb3a27d1025f2ac0300a0f2c45469bd38b4008727.png)
 
-![5](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/9dec1198dc2b824f2c8368ae17729798c2f13ccb2f2e03ec5a70549fbfd254cb.png)
+![5](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/9dec1198dc2b824f2c8368ae17729798c2f13ccb2f2e03ec5a70549fbfd254cb.png)
 
-![6](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/0e0a53fb52850e1201a7629c2c2c315d6bdba4fea1537dc47fb0f95fee7185dc.png)
+![6](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/0e0a53fb52850e1201a7629c2c2c315d6bdba4fea1537dc47fb0f95fee7185dc.png)
 
-![7](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/3c282bbea67833345977c584fa9090b8520babb432d32eca38242ccf5a93633b.png)
+![7](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/3c282bbea67833345977c584fa9090b8520babb432d32eca38242ccf5a93633b.png)
 
-![8](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/b651a99a15f3e814d816ee993db3baed5ce43be70e51acd11e6cf487d93c7ee6.png)
+![8](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/b651a99a15f3e814d816ee993db3baed5ce43be70e51acd11e6cf487d93c7ee6.png)
 
 ### 2026-10-06 – ![12](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/9a41b37562c849907f3a83d1aa5a3d5bc58c8a494217f74988c9070461d2e781.png)
 
 **5h**
 
-![12](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/9a41b37562c849907f3a83d1aa5a3d5bc58c8a494217f74988c9070461d2e781.png)
+![12](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/9a41b37562c849907f3a83d1aa5a3d5bc58c8a494217f74988c9070461d2e781.png)
 
-![14](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/d37b612d772a61d684a80f9cefc5e53713bad4a8ea2dd42e52ddbf886651368c.png)
+![14](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/d37b612d772a61d684a80f9cefc5e53713bad4a8ea2dd42e52ddbf886651368c.png)
 
 I searched for a bunch of tips online to make the routing look better and fix up the traces. After that I ran the DRC test thingie to check for errors, found a few weird problems like isolated pads, and got them all fixed. Finally I added a full ground pour zone , which connected all the GND pins automatically and cleaned up the whole layout here are pictures of the final work of the pcb
 
-![1.2](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/5dee7b8e5e239983facdf923f0ee89fd1c2ba8287bc4ac93e2b65b45a6e5eeee.png)
+![1.2](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/5dee7b8e5e239983facdf923f0ee89fd1c2ba8287bc4ac93e2b65b45a6e5eeee.png)
 
-![1.3](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/5050c0f2bb7badc08ac2abb27d8cddcf03270dccc9d0458c920c1bf3c7aa15ab.png)
+![1.3](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/5050c0f2bb7badc08ac2abb27d8cddcf03270dccc9d0458c920c1bf3c7aa15ab.png)
 
-![1.4](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/230165a471b780f63bb94004ea01aad2d7cc4f1de889f52493b47579318439f6.png)
+![1.4](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/230165a471b780f63bb94004ea01aad2d7cc4f1de889f52493b47579318439f6.png)
 
 ### 2026-10-06 – Spent hours losing my mind wondering why JLCPCB kept rendering my board as a tiny default rectangle and ignoring all my fixes... only to realize I literally forgot to hit the 'Plot' button in KiCad af
 
@@ -77,45 +79,45 @@ I searched for a bunch of tips online to make the routing look better and fix up
 
 Spent hours losing my mind wondering why JLCPCB kept rendering my board as a tiny default rectangle and ignoring all my fixes... only to realize I literally forgot to hit the 'Plot' button in KiCad after changing the settings. Hit plot once, re-zipped and tested : works fine
 
-![15](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/94e6c3420247b840c25e62c388f51cfd00451df94c630e54b171af32ac3e1438.png)
+![15](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/94e6c3420247b840c25e62c388f51cfd00451df94c630e54b171af32ac3e1438.png)
 
-![16](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/f15d97fcdd3301689aaec6c5e6d60b5a72a15378b7b6eb751d91476568dff171.png)
+![16](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/f15d97fcdd3301689aaec6c5e6d60b5a72a15378b7b6eb751d91476568dff171.png)
 
-![17](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/7039e6af999d3a1a92923a6071cef62f1ff78100d7888d7fa29005592a0ad5d1.png)
+![17](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/7039e6af999d3a1a92923a6071cef62f1ff78100d7888d7fa29005592a0ad5d1.png)
 
-![18](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/df112589bc8af7326aee220901b519aaecb0406a063a266a8a987d645224d293.png)
+![18](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/df112589bc8af7326aee220901b519aaecb0406a063a266a8a987d645224d293.png)
 
-![19](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/3e071b7d222d9df051e557e474ce41ad6284561aec35236a355642badd7769fb.png)
+![19](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/3e071b7d222d9df051e557e474ce41ad6284561aec35236a355642badd7769fb.png)
 
 ### 2026-10-06 – ![106](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/7abf3a36411e5790d8dd54c296b39b2b0e005085283db22196aa7e41f9de7d88.png)
 
 **5.4h**
 
-![106](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/7abf3a36411e5790d8dd54c296b39b2b0e005085283db22196aa7e41f9de7d88.png)
+![106](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/7abf3a36411e5790d8dd54c296b39b2b0e005085283db22196aa7e41f9de7d88.png)
 
 Spent about 4 hours in KiCad's 3D Viewer trying to figure out if my parts would actually fit together in real life. Since this is my first time designing a PCB, I spent a lot of time following YouTube tutorials to learn how to open the 3D models and use the 3D measurement tool. I measured the height of the pin headers to make sure the OLED display wouldn't smash into the other components, and checked that the DHT11 sensor and MPU6050 had enough breathing room so nothing collides once soldered.
 
-![100](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/11a8660fae87c922aa188aa99e8fe2dc342ab465bb635417b95d61cccb33d6f6.png)
+![100](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/11a8660fae87c922aa188aa99e8fe2dc342ab465bb635417b95d61cccb33d6f6.png)
 
-![102](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/8e4151db635c5a9aad233628dae98256e1be71b1e7f7a92d748c8fc5d3bc477e.png)
+![102](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/8e4151db635c5a9aad233628dae98256e1be71b1e7f7a92d748c8fc5d3bc477e.png)
 
-![103](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/f70a075507b846e1c69e1b1f17e1039a6ead9ca005c013247228db3a72b63b6e.png)
+![103](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/f70a075507b846e1c69e1b1f17e1039a6ead9ca005c013247228db3a72b63b6e.png)
 
-![104](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/cc24f2e033975816f02845ac2b0d15455dbfbf14453ee0939142c32ee98b2326.png)
+![104](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/cc24f2e033975816f02845ac2b0d15455dbfbf14453ee0939142c32ee98b2326.png)
 
-![105](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/f2548139e531671375e536048f1ee774f9a56d4fee027c40ff27a7f4337205d7.png)
+![105](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/f2548139e531671375e536048f1ee774f9a56d4fee027c40ff27a7f4337205d7.png)
 
 ### 2026-10-09 – ![4](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/791c0b91f08021d251299d4b48fd4b3238a9517ceacc2a2c006083e77306db35.png)
 
 **2h**
 
-![4](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/791c0b91f08021d251299d4b48fd4b3238a9517ceacc2a2c006083e77306db35.png)
+![4](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/791c0b91f08021d251299d4b48fd4b3238a9517ceacc2a2c006083e77306db35.png)
 
-![3](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/387cea8de6e13f5d632300bd959e7ccaa2948b0c04b1b8e5fb9785c9b66cc215.png)
+![3](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/387cea8de6e13f5d632300bd959e7ccaa2948b0c04b1b8e5fb9785c9b66cc215.png)
 
 After watching a couple of tutorials, I took my time to prepare the icons I was going to use. Some worked and some didn't (they gave errors when exporting), so it took a while to find good, working ones. I also made a few custom ones.
 After doing all of that, it was time to take measurements to get the sizes right. The problem was that once you export an image in the Image Converter, you can't modify the size on the board, so you have to delete it and retry until you get it right. I had to do this for every single icon, which took a lot of time, but it came out really good! I also updated the GitHub repo with the new files.
 
-![1](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/4c7bc12cc4f273435b97b58e1e7affd44142833de576a3540b83d4232efd0282.png)
+![1](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/4c7bc12cc4f273435b97b58e1e7affd44142833de576a3540b83d4232efd0282.png)
 
-![2](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/8b2ab7115fe98498ca2896b89d5c2461f63d9ea637126a1615ab15b5b497eb82.png)
+![2](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/8b2ab7115fe98498ca2896b89d5c2461f63d9ea637126a1615ab15b5b497eb82.png)
