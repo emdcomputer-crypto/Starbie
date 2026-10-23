@@ -14,7 +14,7 @@
 
 ## Contents
 
-1. [2026-10-05 – Work session](#2026-10-05-work-session)
+1. [2026-10-05 – I worked on the full schematic placed all the symbols connected everything took my time to make everything nice and tidy and also assigned all the footprints, lastly i also started working on the pcb](#2026-10-05-i-worked-on-the-full-schematic-placed-all-the-sym)
 2. [2026-10-05 – So for this project I just started off by following the guide step by step, going through the instructions one by one to get everything set up. It was going pretty smooth at first, but honestly the tr](#2026-10-05-so-for-this-project-i-just-started-off-by-followi)
 3. [2026-10-06 – ![12](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/9a41b37562c849907f3a83d1aa5a3d5bc58c8a494217f74988c9070461d2e781.png)](#2026-10-06-12httpshalflifehackclub-assetscomhackclub-half-li)
 4. [2026-10-06 – Spent hours losing my mind wondering why JLCPCB kept rendering my board as a tiny default rectangle and ignoring all my fixes... only to realize I literally forgot to hit the 'Plot' button in KiCad af](#2026-10-06-spent-hours-losing-my-mind-wondering-why-jlcpcb-k)
@@ -23,11 +23,11 @@
 
 ## Design
 
-### 2026-10-05 – Work session
+### 2026-10-05 – I worked on the full schematic placed all the symbols connected everything took my time to make everything nice and tidy and also assigned all the footprints, lastly i also started working on the pcb
 
 **0.97h**
 
-Work session
+I worked on the full schematic placed all the symbols connected everything took my time to make everything nice and tidy and also assigned all the footprints, lastly i also started working on the pcb by making the outline of it and placed some components down
 
 [Timelapse](https://lookout.hackclub.com/api/media/d6d4ca4f-5397-400d-a169-597eae360f52/video.mp4)
 
