@@ -55,19 +55,7 @@ By spending extra time finding good AliExpress parts like the XIAO microcontroll
 This project was based on the guided Starbie project by [SharKingStudios](https://github.com/SharKingStudios/Starbie ). I used it as a starting point and made my own PCB layout, fabrication files, documentation, and project changes for Hack Club Half Life Week 1.
 
 
-<img width="1920" height="1080" alt="8" src="https://github.com/user-attachments/assets/c37e10d5-585f-4cc0-acd0-51f298823da0" />
-<img width="1920" height="1080" alt="7" src="https://github.com/user-attachments/assets/87957fc7-e223-4ff7-b5dd-a4a5c4921c19" />
-<img width="1920" height="1080" alt="6" src="https://github.com/user-attachments/assets/625f0c08-736c-48d9-abf9-7ff58fc5dfe3" />
-<img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/972f1bec-a14e-47f3-9d3a-ed867ab34475" />
-<img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/3e0d92da-f70a-4f13-beae-8f6c6e0f95c5" />
-<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/864ecc64-ffe6-4982-923c-56a3f4dc68a8" />
-<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/4ba7f78e-6d13-4d3d-9e9e-a9404b95ea41" />
-<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/597cae54-7f68-4bd6-b929-0c935f74671d" />
-<img width="1920" height="1080" alt="1 4" src="https://github.com/user-attachments/assets/3ae49fa7-ef4e-497e-81d8-3ddacc3fb5fa" />
-<img width="1920" height="1080" alt="1 3" src="https://github.com/user-attachments/assets/57f14418-2df4-423d-9654-304cf5f2df3c" />
-<img width="1920" height="1080" alt="1 2" src="https://github.com/user-attachments/assets/b28252e1-e858-4774-a134-100a6e32339e" />
-<img width="1918" height="1022" alt="1" src="https://github.com/user-attachments/assets/825287b1-bd7a-44bd-b2d2-55fc8d6c6fd0" />
-<img width="899" height="835" alt="2" src="https://github.com/user-attachments/assets/0a0aad9e-b819-4356-bc02-08e05b6d7212" />
+
 <img width="1914" height="1029" alt="3" src="https://github.com/user-attachments/assets/4de5ff7e-9d3d-4ad7-b697-74dd0116fb33" />
 <img width="1100" height="950" alt="4" src="https://github.com/user-attachments/assets/77a392d3-4c74-4eb0-80cc-7061bd4b518a" />
 
