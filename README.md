@@ -55,6 +55,7 @@ By spending extra time finding good AliExpress parts like the XIAO microcontroll
 This project was based on the guided Starbie project by [SharKingStudios](https://github.com/SharKingStudios/Starbie ). I used it as a starting point and made my own PCB layout, fabrication files, documentation, and project changes for Hack Club Half Life Week 1.
 
 
+<img width="1920" height="1032" alt="12" src="https://github.com/user-attachments/assets/ee9bec66-082b-4c5f-a3e2-5e39d0de1a09" />
 
 <img width="1914" height="1029" alt="3" src="https://github.com/user-attachments/assets/4de5ff7e-9d3d-4ad7-b697-74dd0116fb33" />
 <img width="1100" height="950" alt="4" src="https://github.com/user-attachments/assets/77a392d3-4c74-4eb0-80cc-7061bd4b518a" />
